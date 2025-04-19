@@ -12,7 +12,7 @@ __pycache__/
 push_to_github.sh"
 
 # Create remote repo on GitHub
-# curl -u "$GITHUB_USERNAME:$GITHUB_TOKEN" https://api.github.com/user/repos -d "{\"name\":\"$REPO_NAME\",\"private\":true}"
+curl -u "$GITHUB_USERNAME:$GITHUB_TOKEN" https://api.github.com/user/repos -d "{\"name\":\"$REPO_NAME\",\"private\":true}"
 
 # Initialize git repo if not already
 git init

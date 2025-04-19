@@ -18,3 +18,6 @@ app/bin/
 
 # Python virtual environment
 *.venv/
+
+# Pusher
+push_to_github.sy
