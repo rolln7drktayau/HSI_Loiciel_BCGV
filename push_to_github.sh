@@ -3,7 +3,7 @@
 # Variables
 GITHUB_USERNAME="rolln7drktayau"
 REPO_NAME="HSI_Loiciel_BCGV"
-GITHUB_TOKEN="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"
+GITHUB_TOKEN="YOUR_TOKEN_HERE"
 GITIGNORE_CONTENT="*.log
 *.pyc
 __pycache__/
@@ -28,6 +28,3 @@ git commit -m "Initial commit"
 git branch -M main
 git remote add origin https://$GITHUB_USERNAME:$GITHUB_TOKEN@github.com/$GITHUB_USERNAME/$REPO_NAME.git
 git push -u origin main
-
-# git remote add origin https://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@github.com/rolln7drktayau/SecIOT.git
-# git push -u origin main
